@@ -28,6 +28,7 @@ int main(int argc, char** argv)
 		}
 		imshow("MyVideo", frame);
 		if (waitKey(0) == 27) break;
+
 	}
 
 }
